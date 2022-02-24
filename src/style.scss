@@ -1,0 +1,19 @@
+.wp-block-mhm-link-404 {
+    > * {
+        margin-top: 0;
+        margin-bottom: 0;
+        & + * {
+            margin-top: var(--wp--style--block-gap, 1rem);
+        }
+    }
+
+    &.has-background {
+        padding: var(--wp--style--block-gap, 1rem);
+    }
+
+    &.has-text-color {
+        .wp-block-mhm-link-404__link {
+            color: currentColor;
+        }
+    }
+}
